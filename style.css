@@ -86,30 +86,43 @@ ul {
     mask: var(--mask);
 }
 
-.content-block{
-    display: flex;
-    gap: 10px;
-    width: 20px;
+.content-block {
+    display: grid;
+     grid-template-columns: repeat(3, 1fr); /*creates grid with 3 collums */
+    gap: 20px; 
+    max-width: 1200px; 
+    margin: 0 auto; 
 }
-/* hello */
-.box{
-    color: black;
-    font-family: 'Poppins';
-    box-sizing: border-box; 
+
+.content-block > div {
     background-color: #fff;
     border-radius: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.box {
+    color: black;
+    font-family: 'Poppins';
     font-size: 19px;
     width: 100%;
-    text-align: center;
-    margin-left: 50px
 }
 
-.boximg{
-    margin-top: 10%;
+.boximg {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
 }
 
-.date, .dot, .content{
-    text-align: left;
-    margin-left: 15%;
-    align-items: left;
+.date, .dot, .content {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #000000;
+}
+.flex-container{
+    display: flex;
+    align-items: center;
 }
