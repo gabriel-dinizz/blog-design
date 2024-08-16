@@ -11,19 +11,55 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 100px; 
-    padding: 0 20px; 
+    padding: 0 20px;
+    font-family: Poppins;
 }
 .title {
     display: flex;
     padding-top: 10px;
     padding-left: 125px;
+    font-family: 'Poppins';
 }
 
 .nav-1{
+    padding: 10px;
     padding-top: 5px;
     text-align: right;
     padding-right: 125px;
+    word-spacing: 10px;
 
+}
+
+#Main-Image {
+    width: 194.45px;
+    height: 204.08px;
+}
+
+h1 {
+    font-family: 'Recursive';
+    color: rgb(238, 124, 120);
+    font-size: 71px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+h3 {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 29px;
+}
+
+hr {
+    background-color: rgba(50, 50, 50, 0.7);
+
+}
+
+a {
+    font-family: 'Recursive';
+    font-weight: 400;
+    font-style: italic;
+    font-size: 27px;
+    color: #909090;
 }
 
 header {
@@ -33,12 +69,6 @@ header {
 ul {
     list-style-type: none;
     display: inline;
-}
-
-a {
-    color: #fff;
-    text-decoration: none;
-    
 }
 
 #last {
