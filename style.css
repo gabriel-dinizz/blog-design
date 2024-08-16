@@ -93,6 +93,23 @@ ul {
 }
 /* hello */
 .box{
+    color: black;
     font-family: 'Poppins';
-    box-sizing: border-box;  
+    box-sizing: border-box; 
+    background-color: #fff;
+    border-radius: 15px;
+    font-size: 19px;
+    width: 100%;
+    text-align: center;
+    margin-left: 50px
+}
+
+.boximg{
+    margin-top: 10%;
+}
+
+.date, .dot, .content{
+    text-align: left;
+    margin-left: 15%;
+    align-items: left;
 }
