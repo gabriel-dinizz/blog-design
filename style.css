@@ -3,6 +3,21 @@ body {
     margin: 0;
     padding: 0;
     background-color: #232830;
+    text-align: center;
+
+}
+
+#title {
+    display: flex;
+    padding-top: 10px;
+    padding-left: 125px;
+}
+
+#nav-1{
+    padding-top: 5px;
+    text-align: right;
+    padding-right: 125px;
+
 }
 
 header {
@@ -11,4 +26,19 @@ header {
 
 ul {
     list-style-type: none;
+    display: inline;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+#last {
+    --mask: linear-gradient(to right,
+            rgba(0, 0, 0, 1) 0, rgba(0, 0, 0, 1) 50%,
+            rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 0) 100% 50% / 100% 100% repeat-x;
+    -webkit-mask: var(--mask);
+    mask: var(--mask);
 }
