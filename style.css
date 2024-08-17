@@ -150,8 +150,8 @@ text-decoration-line: overline;
 
 .footer {
     display: flex;
-    justify-content: space-between; /* Space between the two sections */
-    align-items: center; /* Vertically align the items */
+    justify-content: space-between; 
+    align-items: center;
     word-spacing: 20px;
 }
 
@@ -159,7 +159,7 @@ text-decoration-line: overline;
     font-family: "Source Sans 3";
     font-size: 30px;
     display: flex;
-    align-items: center; /* Align text and button */
+    align-items: center; 
 }
 
 .link {
@@ -169,8 +169,7 @@ text-decoration-line: overline;
     background-color: #4699E0;
     padding: 5px;
     border-radius: 5px;
-    margin-left: 10px; /* Space between the text and the button */
-}
+    margin-left: 10px; 
 
 .footer-2 {
     display: flex;
@@ -193,5 +192,5 @@ text-decoration-line: overline;
 }
 
 .follow img {
-    margin-right: 5px; /* Space between the logo and the text */
+    margin-right: 5px; 
 }
